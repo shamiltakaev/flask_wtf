@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Список профессий</h2>
+    {% if lst == "ul" %}
+        <ul>
+    {% else %}
+        <ol>
+    {% endif %}
+            {% for profes in professions %}
+                <li>{{ profes }}</li>
+            {% endfor %}
+    {% if lst == "ul" %}
+        </ul>
+    {% else %}
+        </ol>
+    {% endif %}
+{% endblock %}

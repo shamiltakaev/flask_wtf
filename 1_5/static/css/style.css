@@ -1,0 +1,21 @@
+h4 {
+    color: #cccccc;
+    padding: 20px;
+}
+
+.access {
+    background: url(/static/img/mission_small.png) no-repeat;
+    padding-left: 155px;
+}
+.form-control {
+    max-width: 600px;
+}
+
+p>label {
+    font-size: 18px;
+}
+
+.btn-primary {
+    padding: 10px 25px;
+    font-size: 18px;
+}
